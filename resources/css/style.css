@@ -1,0 +1,123 @@
+@charset "UTF-8";
+:root{
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+#pid
+{font-size: 12px;}
+
+.page-container{
+    width: 100vw;
+    height: 100vh;
+    background:#7ba3b647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form-container{
+
+
+    width:860px;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px black;
+    border-radius: 10px;
+
+}
+.login-form-left-side{
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background : linear-gradient(#22836d, #9198e5);
+}
+.login-form-left-side h1{
+    color: white;
+    width:100%;
+    text-align: right;
+
+}
+.login-form-left-side p{
+    padding-top: 30px;
+    font-size:15px;
+    text-align: right;
+    opacity: 0.9;
+}
+.login-form-right-side{
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    background: rgb(255,255,255);
+
+}
+.login-form-right-side .login-top-wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:100%;
+}
+.login-form-right-side .login-top-wrap span{
+    color: gray;
+    font-size: 13px;
+    padding-right:20px;
+
+}
+
+.login-input-container{
+    padding-top:140px;
+    width:300px;
+}
+.login-input-container .login-input-wrap{
+    width:300px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border-bottom: solid 3px #9399e3;
+
+}
+.login-input-container .login-input-wrap i{
+    color: #2178ff;
+    line-height: 45px;
+}
+
+.login-input-container .login-input-wrap input{
+    background: none;
+
+    border: none;
+    line-height: 45px;
+    padding-left:10px;
+    width:267px;
+}
+
+.login-btn-wrap{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.login-btn-wrap .login-btn{
+    width:95px;
+    height:35px;
+    color:white;
+    border: 0;
+    border-radius: 4px;
+   background-color: rgb(152 157 223);
+}

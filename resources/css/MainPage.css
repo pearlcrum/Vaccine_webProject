@@ -1,0 +1,68 @@
+@charset "UTF-8";
+:root{
+
+
+}
+
+
+*{
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 1em;
+    font-family: 'Alata', sans-serif;
+    position : relative;
+
+}
+.hole{
+  background:rgb(235 236 231);
+  width:100%;
+  height: 100%;
+
+
+}
+.content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+text-align: center;
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ font-size: 50px;
+ font-weight: 400;
+ color: black;
+}
+.asd{
+
+  display: inline-block;
+  width: 250px;
+  height: 230px;
+  padding: 30px 20px;
+  margin: 10px 10px;
+  border: 1px solid;
+  justify-content: center;
+  cursor: pointer;
+  text-align:center;
+  border-radius: 9px;
+  background-color: white;
+  color: black;
+  border-color: white;
+  font-size: 19px;
+  font-family:'Noto Sans KR','Malgun Gothic','맑은 고딕','NotoSans','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
+
+
+
+}
+
+.line{
+    text-align:center;
+
+}
+.topdeco{
+
+  height: 60px;
+  background-color:#2aa390;
+
+}
+
+.underline
+{border-bottom: solid 4px #7ba27b;}

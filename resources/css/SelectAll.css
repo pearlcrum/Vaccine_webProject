@@ -1,0 +1,511 @@
+@charset "UTF-8";
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:'Noto Sans KR','Malgun Gothic','맑은 고딕','NotoSans','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
+
+}
+body{
+  display: block;
+}
+
+
+.middlemenu{
+  flex-direction: row;
+  height: 500px;
+  width:  100vw;
+
+}
+.middle1{
+  margin-left: 60px;
+  color : black;
+  width: 50%;
+  border-right: 3px solid;
+  border-color: red;
+  justify-content: start;
+}
+.headertop
+{
+        height: 60px;
+        width: 100vw;
+
+}
+
+  #topMenu {
+                    height: 60px;
+                    width: 100vw;
+                    position: fixed;
+            }
+  #topMenu ul li {
+                    list-style: none;
+                    color: white;
+                    background-color: #2aa390;
+                    float: left;
+                    line-height: 60px;
+                    vertical-align: middle;
+                    text-align: center;
+            }
+  #topMenu .menuLink {
+                    text-decoration:none;
+                    color: white;
+                    display: block;
+                    width: 14.07vw;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: "Trebuchet MS";
+            }
+  #topMenu .menuLink:hover {
+                    color: #f1efef;
+                    background-color:#70b173;
+
+            }
+  #containerwrap{
+              width: 100%;
+              height : 100%;
+              text-align: center;
+              margin-top:129px;
+            }
+  #containerwrap #container{
+              position: absolute;
+              text-align: left;
+              width: 25%;
+              max-width:  1200px;
+              margin: 0 auto;
+              padding-left : 50px;
+              margin : 0 auto;
+              padding-bottom : 50px;
+              overflow : hidden;
+
+            }
+  .info{
+
+              width: 80vw;
+              height : 500px;
+              margin: 5px 50px 0px 50px;
+              padding-top: 100px;
+              border-top: 2px solid #038383;
+
+            }
+    h3
+            {display : inline;}
+
+    .subtitle{
+
+
+    height : 60px;
+    background-color: rgb(235 236 231);
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+    width: 100vw;
+
+
+    }
+
+.subtitle2{
+  height : 40px;
+  background-color: rgb(55 103 117);
+  text-align: left;
+  padding-left: 43px;
+  padding-top: 9.5px;
+  font-size: 13px;
+  color: white;
+  width: 100vw;
+
+}
+.buttonblock{
+      margin: 50px 0px 10px 50px;
+    }
+
+.bt{
+  background-color:#037879;
+ border: none;
+ color: white;
+ padding: 8px 16px;
+ text-decoration: none;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 5px;
+
+}
+
+
+.agelist
+{
+  display: inline-block;
+  width: 13%;
+  height:50px;
+  background-color: gray;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.genderlist
+{  display: inline-block;
+  width: 10%;
+  height:50px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;}
+
+.vaccinelist{  display: inline-block;
+  width: 15%;
+  height:50px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;}
+
+
+.clock{  display: inline-block;
+  width: 53%;
+  height:50px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;}
+
+.yearlist{display: inline-block;
+  text-align: center;
+}
+.daylist{display: inline-block;
+  text-align: center;}
+  .monthlist{display: inline-block;
+    text-align: center;}
+
+
+.pyo{
+  width: 100vw;
+  height: 85%;
+  background-color: #80808057;
+  display: block;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.middle123{
+  width: 100vw;
+  height: 100vh;
+}
+
+.pyo1{
+  margin: 0;
+    padding: 3px 5%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tablestyle{
+  font-size: 18px;
+  color: black;
+
+}
+table.tablestyle {
+  border-collapse: collapse;
+  text-align: center;
+
+  border-left: 1px solid #ccc;
+  margin: 20px 50px 20px 50px;
+}
+
+table.tablestyle thead th {
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #c00;
+  background: #dcdcd1;
+}
+table.tablestyle tbody th {
+  width: 100px;
+  padding: 3px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #ececec;
+}
+table.tablestyle td {
+  width: 250px;
+  padding: 3px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+table.tablestyle td.modify {
+  width: 30px;
+  padding: 5px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+}
+.modifyimage {
+  width: 25px;
+  height: 25px;
+
+}
+
+.submitbutton{
+  margin-left: 30px;
+
+}
+
+.totalpyo{
+  width:100%;
+  height:3%;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Totalinoculation
+{
+  width: 30%;
+  height:5%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  display: inline-block;
+
+}
+
+.vaccineprice{
+  display: inline-block;
+width: 98vw;
+height: 50px;
+border: 2px solid gray;
+border-radius: 10px;
+}
+
+.submitbutton2{
+  margin-top: 13.5px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #aac0b3;
+}
+
+
+.totallist{
+
+
+}
+
+
+.patinfo {
+    color: #495b5a;
+    width: 78vw;
+    height: 50px;
+    background-color: #ebece7;
+    padding-left: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 3vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 18px;
+    font-weight: bold;}
+
+.dock {
+    color: #495b5a;
+    padding-left: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5vw;
+    width: 90vw;
+    height: 90px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: #ebece7;
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.docklist{
+  display: inline-block;
+}
+
+.top{
+  width: 100vw;
+height: 477px;
+background-color: #f7f7f7;
+border-bottom: 3px solid #376775;
+}
+
+.listnumber
+{
+  text-align: center;
+}
+
+.searchList
+{display: inline-block;
+  width: 180px;
+  height: 30px;
+  padding-left: 35px;
+  padding-top: 1.7px;
+  background-color: #aac0b3;
+  margin-left: 5vw;
+}
+.searchlist
+{display: inline-block;
+  width: 180px;
+  height: 30px;
+  padding-left: 35px;
+  padding-top: 1.7px;
+  background-color: #aac0b3;
+  margin-left: 5vw;
+}
+.buttonposition{
+
+  padding-left: 45%;
+}
+
+.howmanypeople
+{
+  padding-left: 10px;
+  height: 40px;
+  padding-top: 6.5px;
+}
+.warning
+{
+	margin-left: 5vw;
+}
+.searchprice
+{
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+  padding-left: 23.5px;
+  padding-top: 1.7px;
+  background-color: #aac0b3;
+  margin-left: 5vw;
+}
+.totalprice
+{
+	
+}
+.topprice
+{
+	width: 100vw;
+	height: 450px;
+	background-color: #f7f7f7;
+	border-bottom: 3px solid #376775;
+}
+.graphshow
+{
+	justify-content: center;
+	align-items: center;
+	display:flex;
+}
+.topgraph
+{
+	width: 100vw;
+height: 170px;
+background-color: #f7f7f7;
+}
+.descriptionforgraph
+{
+	padding-left: 10%;
+}
+.docklist1
+{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	
+
+}
+.dock1
+{
+	color: #495b5a;
+    padding-left: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5vw;
+    width: 90vw;
+    height: 115px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: #ebece7;
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.top4
+{
+	  width: 100vw;
+height: 500px;
+background-color: #f7f7f7;
+border-bottom: 3px solid #376775;
+}
+.dockleft
+{
+	width : 60%;
+	display : flex;
+}
+.dockright
+{
+	
+}
+.docklist2
+{
+	display: inline-block;
+	
+	height: 40px;
+	
+
+}
+.dockprice
+{
+	color: #495b5a;
+    padding-left: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5vw;
+    width: 90vw;
+    height: 150px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: #ebece7;
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.submitbutton3{
+  margin-top: 29px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #aac0b3;
+}
+table.tablestyle td.excepttd
+{
+  width: 240px;
+  padding: 3px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+table.tablestyle th.exceptth
+{
+  padding: 5px;
+  width: 240px;
+  height: 50px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 2px solid #c00;
+  background: #dcdcd1;
+}
