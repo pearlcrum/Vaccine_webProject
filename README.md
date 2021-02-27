@@ -1,4 +1,4 @@
-# Project Title / Vaccine_WebProject
+# Vaccine_WebProject
 
 ### 1.login
 ![login](https://user-images.githubusercontent.com/60251390/109377631-d16d3e80-790f-11eb-8b1f-bf7168d5d267.PNG)
@@ -19,10 +19,10 @@ This page is designed to make it easy for users to see the usage of vaccines and
 
 ### Prerequisites / 선행 조건
 
-Java Compiler 1.8 is needed
+- Java Compiler 1.8 is needed
 (Spring MVC)
 Specific details are in pom.xml file so check it out
-Also we used Amazon EC2
+- Also we used Amazon EC2
 
 ## Functions / 기능
 
@@ -37,9 +37,9 @@ Also we used Amazon EC2
 ## Built With / 누구랑 만들었나요?
 
 ### SoongSil University Industrial Information System Engineering Web Team
-* [Jaeyoung Yoon](https://github.com/yjy9500) - JavaScript 
-* [Junghan Kim](https://github.com/kimjunghan1023) - HTML,CSS
-* [SeungYeon Lee](https://github.com/isaa1107) - DataAnalysis
+* [Jaeyoung Yoon](https://github.com/yjy9500) - FrontEnd design, (JavaScript) 
+* [Junghan Kim](https://github.com/kimjunghan1023) - FrontEnd design (HTML,CSS)
+* [Seungyeon Lee](https://github.com/isaa1107) - Database design(MySQL)
 * [Jaesung Chang](https://github.com/kimjunghan1023) - BackEnd(Java,Spring,MySQL)
 
 
