@@ -36,7 +36,7 @@ Specific details are in pom.xml file so check it out
 
 ## Built With / 누구랑 만들었나요?
 
-### SoongSil University Industrial Information System Engineering Web Team
+### Industrial Information System Engineering Web Team
 * [Jaeyoung Yoon](https://github.com/yjy9500) - FrontEnd design, (JavaScript) 
 * [Junghan Kim](https://github.com/kimjunghan1023) - FrontEnd design (HTML,CSS)
 * [Seungyeon Lee](https://github.com/isaa1107) - Database design(MySQL)
